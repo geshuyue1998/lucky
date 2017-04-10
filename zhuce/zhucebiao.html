@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册</title>
+	<meta http-equiv="Content-type"
+    content="textml" charset="UTF-8"/>
+</head>
+<body>
+<form action="http://10.7.1.98/taozhuo/form_data.php">
+<table border="1"     bordercolor="#F5F5F5"
+      width="500" height="300"    align="center" cellspacing="0.1"  cellpadding="2">
+	<tr>
+		<td>用户名</td>
+		<td colspan="3">
+			<input type="text" name=""><br/>
+		</td>
+	</tr>
+	<tr>
+		<td>密码</td>
+		<td colspan="3">
+			<input type="password" name=""><br/>
+		</td>
+	</tr>
+	<tr>
+		<td>确认密码</td>
+		<td colspan="3">
+			<input type="password" name=""><br/>
+		</td>
+	</tr>
+	<tr>
+		<td>性别</td>
+		<td colspan="3">
+        	<input type="radio" name="sex" />女
+        	<input type="radio" name="sex" />男
+		</td>
+	</tr>
+	<tr>
+		<td>生日</td>
+		<td colspan="3">
+        	<select name="lunar"value="公历">
+				<option value="1">公历</option>
+				<option value="2"></option>
+            	<option value="3"></option>
+            	<option value="4"></option>
+            </select>
+			<select name="year" value="年">年
+				<option value="1">年</option>
+				<option value="2">1997</option>
+            	<option value="3">1996</option>
+            	<option value="4">1999</option>
+            	<option value="5">1998</option>
+            </select>
+            <select name="month" value="月">月
+				<option value="1">1</option>
+				<option value="2">2</option>
+            	<option value="3">3</option>
+           	 	<option value="4">4</option>
+            	<option value="5">5</option>
+				<option value="6">6</option>
+            	<option value="7">7</option>
+            	<option value="8">8</option>
+            	<option value="9">9</option>
+				<option value="10">10</option>
+            	<option value="11">11</option>
+           	 	<option value="12">12</option>
+           	 	<option value="13"  selected="selected">月</option>
+           	</select>
+            <select name="day" value="日">日
+				<option value="1">1</option>
+				<option value="2">2</option>
+            	<option value="3">3</option>
+            	<option value="4">4</option>
+            	<option value="5">5</option>
+				<option value="6">6</option>
+            	<option value="7">7</option>
+            	<option value="8">8</option>
+            	<option value="9">9</option>
+				<option value="10">10</option>
+            	<option value="11">11</option>
+            	<option value="12">12</option>
+            	<option value="13">13</option>
+				<option value="14">14</option>
+            	<option value="15">15</option>
+            	<option value="16">16</option>
+            	<option value="17">17</option>
+				<option value="18">18</option>
+            	<option value="19">19</option>
+            	<option value="20">20</option>
+            	<option value="21">21</option>
+				<option value="22">22</option>
+            	<option value="23">23</option>
+            	<option value="24">24</option>
+            	<option value="25">25</option>
+				<option value="26">26</option>
+            	<option value="27">27</option>
+            	<option value="28">28</option>
+            	<option value="29">29</option>
+				<option value="30">30</option>
+            	<option value="31">31</option>
+            	<option value="32"  selected="selected">日</option>
+          </select>
+		</td>
+	</tr>
+	<tr>
+		<td >所在地</td>
+        <td colspan="3" >
+        	<select name="country"value="国家">
+				<option value="1">中国</option>
+				<option value="2">美国</option>
+            	<option value="3">德国</option>
+            	<option value="4">俄罗斯</option>
+            </select>
+			<select name="province" value="省份">
+				<option value="1">河北</option>
+				<option value="2">北京</option>
+            	<option value="3">天津</option>
+            	<option value="4">山西</option>
+            </select>
+            <select name="city" value="城市">
+				<option value="1">石家庄</option>
+				<option value="2">衡水</option>
+            	<option value="3">唐山</option>
+           	 	<option value="4">邯郸</option>
+            	<option value="5">邢台</option>
+           	</select>
+		</td>
+	</tr>
+	<tr>
+		<td>验证码</td>
+		<td colspan="3">
+			<input type="text" name=""> <img src="0.jpg" width="100px" height="25px"><br/>
+		</td>
+	</tr>
+	<tr>
+		<td>证件类型</td>
+		<td colspan="3">
+        	 <select name="IDcard" value="证件类型">
+				<option value="1">身份证</option>
+		</td>
+	</tr>
+	<tr>
+		<td>证件号</td>
+		<td colspan="3" >
+        	 <input type="text" name=""><br/>
+        </td>
+	</tr>
+	<tr>
+		<td>爱好</td>
+		<td colspan="3">
+        	<input type="checkbox" name="like[]" />音乐
+       		<input type="checkbox" name="like[]" />读书
+			<input type="checkbox" name="like[]" /> 跳舞
+       		<input type="checkbox" name="like[]" /> 下棋
+       		<input type="checkbox" name="like[]" /> 其他
+       		<br /> 
+		</td>
+	</tr>
+	<tr>
+		<td >说明</td>
+		<td  colspan="3" >
+        	<textarea  rows="3" cols="50"></textarea><br /> 
+        </td>
+	</tr>
+	<tr>
+		<td>上传头像</td>
+		<td colspan="3" >
+        <input type="file" name="ding"> 
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4" align="center">
+		    <input type="submit" name="submit" value="登录" />
+       		<input type="reset" name="reset" value="重置" />
+			<input type="button" name="button" value="按钮" />
+		</td>
+	</tr>
+	
+</table>
+</form>
+
+</body>
+</html>
