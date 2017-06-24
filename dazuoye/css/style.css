@@ -1,0 +1,74 @@
+body{
+	width:1200px;
+	height:1200px;
+	background-image:url(../images/mg.jpg);
+	background-repeat:repeat-x;
+}
+.header{
+	width:1350px;
+	height:250px;
+	background-image:url(../images/shouye.jpg);
+	margin-left:-10px;
+	margin-top:-10px;
+	background-repeat:repeat-x;
+}
+.banner img{
+	width:200px;
+	height:200px;
+	margin-left:70px;
+	margin-top:20px;
+}
+.nav{
+	width:1350px;
+	height:40px;
+	background-image:url(../images/beijing13.jpg);
+	margin-top:25px;
+	background-repeat:repeat-x;
+}
+.nav_content ul li{
+
+	list-style:none;
+	padding-top:7px;
+	padding-left:20px;
+	margin-left:50px;
+	text-decoration: none;
+	float:left;
+} 
+
+.daohang{
+
+	color:#000080;
+	font-size:20px;
+	font-family:'华文行楷';
+	text-decoration: none;
+}
+.daohang:hover{
+	color:red;
+	font-size:20px;
+	font-family:'华文行楷';
+	text-decoration: none;
+}
+
+
+.nav_search input{
+	width: 140px;
+	height: 21px;
+	float: right;
+	margin-top: 7px;
+	
+	background-color:#f8f5ee;
+}
+.nav_search input[type='button']{
+	color: #fff;
+	width: 44px;
+	height: 21px;
+	margin-top: 8px;
+	margin-right:100px;
+	background-color: #000;
+}
+.footer{
+	background-position: center;
+	margin-left:400px;
+	margin-top:80px;
+
+}
